@@ -28,8 +28,8 @@ int main() {
         {
             A[i][j] = rand() % 100; // Fill A with random values (0-99)
             B[i][j] = rand() % 100; // Fill B with random values (0-99)
-                                    // A[i][j] = (double)rand() / RAND_MAX; // Random number between 0 and 1
-                                    // B[i][j] = (double)rand() / RAND_MAX; // Random number between 0 and 1
+            // A[i][j] = (double)rand() / RAND_MAX; // Random number between 0 and 1
+            // B[i][j] = (double)rand() / RAND_MAX; // Random number between 0 and 1
         }
     }
     clock_t start = clock(); // Start measuring time
